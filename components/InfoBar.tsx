@@ -3,7 +3,7 @@ import Image from 'next/image'
 import onlineIcon from '../icons/onlineIcon.png';
 import closeIcon from '../icons/closeIcon.png';
 import Styles from "../styles/InfoBar.module.css"
-
+import Link from 'next/link'
 
 const InfoBar = ({ room }:any) => (
   <div className={Styles.infoBar}>
@@ -12,7 +12,7 @@ const InfoBar = ({ room }:any) => (
       <h3>{room}</h3>
     </div>
     <div className={Styles.rightInnerContainer}>
-      <a href="/"><Image src={closeIcon} alt="close icon" /></a>
+      <Link href="/"><Image src={closeIcon} alt="close icon" /></Link>
     </div>
   </div>
 );

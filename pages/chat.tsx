@@ -38,7 +38,7 @@ const Chat = () => {
       setUsers(users);
     });
 
-  }, []);
+  });
 
 
   const sendMessage = (e: React.ChangeEvent<HTMLInputElement>) => {
