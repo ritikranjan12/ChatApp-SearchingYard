@@ -3,9 +3,9 @@
 
 Next.js Based Chatting application for friends and relatives to join at a place.
 
-## Live App
+## Live App - https://chatapp.coderhunts.com/
 
-#### Client side if the application
+#### Client side of the application
 
 ```http
   https://chatapp.coderhunts.com/
@@ -25,13 +25,14 @@ Next.js Based Chatting application for friends and relatives to join at a place.
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/ritikranjan12/ChatApp-SearchingYard.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd ChatApp-SearchingYard
+
 ```
 
 Install dependencies
