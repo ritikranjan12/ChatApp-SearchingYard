@@ -7,7 +7,7 @@ import InfoBar from '../components/InfoBar';
 import Input from '../components/Input';
 import Styles from '../styles/Chat.module.css'
 
-const ENDPOINT = 'https://chatappserver-l6k9.onrender.com/'
+const ENDPOINT = 'https://web-production-87cf.up.railway.app/'
 
 let socket: any;
 
